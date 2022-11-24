@@ -6,7 +6,7 @@
 /*   By: mde-lang <mde-lang@student.42.fr>          +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2022/11/18 16:10:39 by mde-lang          #+#    #+#             */
-/*   Updated: 2022/11/22 20:07:23 by mde-lang         ###   ########.fr       */
+/*   Updated: 2022/11/24 21:11:10 by mde-lang         ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
@@ -109,16 +109,3 @@ char	**ft_split(char const *s, char c)
 	tab[i] = 0;
 	return (tab);
 }
-/*
-int    main()
-{
-	char    tab[] = "\0";
-	char    c = ' ';
-	int   i = 0;
-	char  **result;
-	
-	result = ft_split(tab, c);
-	while (result[i])
-		printf("%s\n", result[i++]);
-	return (0);
-}*/
